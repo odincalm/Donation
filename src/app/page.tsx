@@ -26,8 +26,7 @@ export default function Home() {
 
   const fadeInUp = {
     initial: { opacity: 0, y: 20 },
-    animate: { opacity: 1, y: 0 },
-    transition: { duration: 0.5, ease: 'easeOut' }
+    animate: { opacity: 1, y: 0 }
   }
 
   return (
@@ -38,6 +37,7 @@ export default function Home() {
         initial="initial"
         animate="animate"
         variants={fadeInUp}
+        transition={{ duration: 0.5, ease: 'easeOut' }}
       >
         <motion.div 
           className="w-24 h-24 mx-auto rounded-full overflow-hidden border-2 border-white/10 glass-panel"

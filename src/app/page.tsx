@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 'use client'
 
 import { useState } from 'react'
@@ -56,7 +57,7 @@ export default function Home() {
         
         <div>
           <h1 className="text-3xl font-bold tracking-tight text-white mb-1">Nitin</h1>
-          <p className="text-white/60 font-medium text-sm tracking-wide uppercase">Solo Developer & Nursing Student</p>
+          <p className="text-white/60 font-medium text-sm tracking-wide uppercase">Solo Developer &amp; Nursing Student</p>
         </div>
         
         <p className="text-white/80 leading-relaxed text-sm md:text-base px-2">
@@ -249,7 +250,7 @@ export default function Home() {
           </AnimatePresence>
 
           <div className="text-center pt-2">
-             <p className="text-xs text-white/40">Secure & Direct Transfer • 0% Platform Fee</p>
+             <p className="text-xs text-white/40">Secure &amp; Direct Transfer • 0% Platform Fee</p>
           </div>
         </div>
       </motion.section>
@@ -286,7 +287,7 @@ export default function Home() {
         transition={{ duration: 0.5, delay: 0.5 }}
       >
         <p className="text-xs text-white/40">Built with care by Nitin</p>
-        <p className="text-[10px] text-white/20 mt-1">Can't donate? Sharing this page helps too. 🙏</p>
+        <p className="text-[10px] text-white/20 mt-1">Can&apos;t donate? Sharing this page helps too. 🙏</p>
       </motion.footer>
     </main>
   )
